@@ -17,7 +17,9 @@ Tables have many-to-many relationship.
 Let's call it product_tags  
 This table should have two columns product_id and tag_id  
 
+```
 select distinct products.name from products  
 left join product_tags on products.id=product_tags.product_id  
 left join tags on tags.id=product_tags.tag_id  
 where count(tags.id) > 10  
+```
