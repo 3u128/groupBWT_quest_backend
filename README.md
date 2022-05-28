@@ -10,5 +10,5 @@ Bubble sort function
 What should the relationship between products and tags look like?  
 Write a query that will find products with more than 10 tags.  
 
-6. __palindrome.py__
+6. __palindrome.py__  
 Check if a string is a palindrome.  
